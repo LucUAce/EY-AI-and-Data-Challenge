@@ -1,16 +1,16 @@
 
 
-
+- probar features 1 a una para quitar si alguna no sirvee
 - arreglar los lags!! shift vs mirar fecha!
 
 
 - añadir features: vpd (muy importante para calidad del agua), pdsi (proxy de sequía acumulada), swe (si hay cuencas con influencia nival) (modelo externo?)
--meter datasets:
+- meter datasets:
  - Hidrología estática
  - Uso del suelo (agricultura, bosque, urbano): Copernicus Land Cover, MODIS land use, FAO / GlobCover
  - de geologia/rocosidad/materiales (Litología dominante, Tipo de roca (ígnea / sedimentaria / metamórfica), Carbonatos vs silicatos, Profundidad del suelo,Textura (arcilla / arena))
 
-- ir rio arribaa como de importante y factiblee??
+- ir rio arribaa, como de importante y factiblee??
 
 - modelo multivariable
 - landsat
