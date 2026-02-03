@@ -1,0 +1,22 @@
+
+
+
+- arreglar los lags!! shift vs mirar fecha!
+
+
+- añadir features: vpd (muy importante para calidad del agua), pdsi (proxy de sequía acumulada), swe (si hay cuencas con influencia nival) (modelo externo?)
+-meter datasets:
+ - Hidrología estática
+ - Uso del suelo (agricultura, bosque, urbano): Copernicus Land Cover, MODIS land use, FAO / GlobCover
+ - de geologia/rocosidad/materiales (Litología dominante, Tipo de roca (ígnea / sedimentaria / metamórfica), Carbonatos vs silicatos, Profundidad del suelo,Textura (arcilla / arena))
+
+- ir rio arribaa como de importante y factiblee??
+
+- modelo multivariable
+- landsat
+
+-  terraclimate, Interpolar temporalmente en vez de “mes más cercano”   +0.01 a +0.04 de R²
+- añadir lineas de los dias que haga falta para que los lags tengan sentido no prioritario?
+
+- modelo? XGBoost?
+
