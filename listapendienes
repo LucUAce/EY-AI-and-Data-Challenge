@@ -1,10 +1,11 @@
 
 
-- probar features 1 a una para quitar si alguna no sirvee
+- probar features 1 a una para quitar si alguna no sirvee. Utiliza técnicas como Grid Search o Random Search para encontrar la mejor combinación de hiperparámetros para tus modelos.
+
 - arreglar los lags!! shift vs mirar fecha!
 
 
-- añadir features: vpd (muy importante para calidad del agua), pdsi (proxy de sequía acumulada), swe (si hay cuencas con influencia nival) (modelo externo?)
+- añadir features: vpd (muy importante para calidad del agua), pdsi (proxy de sequía acumulada), swe (si hay cuencas con influencia nival) (modelo externo?) xplora nuevas combinaciones de bandas satelitales, índices espectrales adicionales (por ejemplo, NDVI, EVI, SAVI), o variables climáticas relevantes. Considera crear variables temporales (mes, estación) o espaciales (distancia a fuentes de contaminación).
 - meter datasets:
  - Hidrología estática
  - Uso del suelo (agricultura, bosque, urbano): Copernicus Land Cover, MODIS land use, FAO / GlobCover
@@ -18,5 +19,12 @@
 -  terraclimate, Interpolar temporalmente en vez de “mes más cercano”   +0.01 a +0.04 de R²
 - añadir lineas de los dias que haga falta para que los lags tengan sentido no prioritario?
 
-- modelo? XGBoost?
+- **Modelos Avanzados:** Prueba algoritmos más complejos como Gradient Boosting (XGBoost, CatBoost), Support Vector Regression, (o redes neuronales?). Ajusta hiperparámetros con GridSearch o RandomizedSearch. O Considera modelos que capturen dependencias espaciales o temporales, como modelos geoestadísticos o series temporales.
 
+- **Selección de Variables:** Utiliza técnicas como importancia de variables, selección recursiva o métodos automáticos (LASSO, Boruta) para identificar las características más relevantes.
+- **Tratamiento de Outliers:** análisis exploratorio de datos (EDA) para identificar valores atípicos, datos faltantes y errores.
+
+- **Ensemble de Modelos:** Combina predicciones de varios modelos (stacking, bagging, blending) para mejorar la precisión.
+
+
+- **Regularización y Normalización:** Experimenta con diferentes técnicas de escalado y regularización para mejorar la generalización. Manejo de Valores Faltantes: Utiliza técnicas como imputación (media, mediana, o modelos predictivos) para manejar los valores faltantes. Normaliza o estandariza las características numéricas para mejorar la convergencia de los modelos.
